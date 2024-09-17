@@ -24,10 +24,10 @@ static GUIEventPadButtonType eventMappingPico[10] = {
     EPBT_RIGHT, // SW3
     EPBT_UP,    // SW4
     EPBT_L,     // SW5
-    EPBT_B,     // SW6
-    EPBT_A,     // SW7
+    EPBT_A,     // SW6
+    EPBT_START,     // SW7
     EPBT_R,     // SW8
-    EPBT_START, // SW9
+    EPBT_B, // SW9
     EPBT_SELECT // No SW
 };
 
