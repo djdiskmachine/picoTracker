@@ -64,6 +64,21 @@ static GUIEventPadButtonType eventMappingPico[11] = {
     EPBT_POWER   // Power button
 };
 
+// more similar to Gameboy - style B / A button layout
+static GUIEventPadButtonType eventMappingLSDJ[11] = {
+    EPBT_LEFT,   // SW1
+    EPBT_DOWN,   // SW2
+    EPBT_RIGHT,  // SW3
+    EPBT_UP,     // SW4
+    EPBT_L,      // SW5
+    EPBT_A,      // SW6
+    EPBT_START,  // SW7
+    EPBT_R,      // SW8
+    EPBT_B,      // SW9
+    EPBT_SELECT, // No SW
+    EPBT_POWER   // Power button
+};
+
 #define to_rgb565(color)                                                       \
   ((color._r & 0b11111000) << 8) | ((color._g & 0b11111100) << 3) |            \
       (color._b >> 3)
