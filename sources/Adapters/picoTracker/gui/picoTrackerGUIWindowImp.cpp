@@ -27,7 +27,7 @@ static uint16_t lastPaletteRGB[16] = {0};
 // devices LCD
 static uint8_t lastRemoteColorIdx = 255;
 
-static GUIEventPadButtonType *eventMapping = eventMappingPico;
+static GUIEventPadButtonType *eventMapping = eventMappingLSDJ;
 
 // Initialize static members
 picoTrackerGUIWindowImp *picoTrackerGUIWindowImp::instance_ = NULL;
